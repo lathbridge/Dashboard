@@ -1,0 +1,26 @@
+.form-input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  
+  .form-input:focus {
+    border-color: green;
+    outline: none;
+  }
+  
+ #form1labels{
+    display: block;
+    padding-bottom: 5px;
+    font-size: small;
+ }
+
+ .form-input{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+
+ }
+
+ 
+
