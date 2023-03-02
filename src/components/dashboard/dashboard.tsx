@@ -2,6 +2,8 @@ import React from 'react'
 import Logo from '../../helps/help'
 import './dash.css';
 import Topnav from './topnav';
+import Book from '../../helps/book';
+import Farmer from '../farmer/Farmer';
 
 function Dashboard() {
   return (
@@ -24,8 +26,18 @@ function Dashboard() {
         </aside>
 
         <section id='main'>
-
+          <Book/>
+          <div id='tex'>
+           FARMERS' PANEL
+            <p>May the grace of our Lord Jesus be with all farmers and all consumers..!! please say Amen</p>
+          </div>
         </section>
+
+        <section>
+          <Farmer/>
+        </section>
+
+
 
      
     </>
